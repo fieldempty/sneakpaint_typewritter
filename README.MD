@@ -1,15 +1,17 @@
-Bootsector application made to showcase x86 computer 13h video mode (320x200, 256 colors). Utilizes bios keyboard and video interrupts.
+Bootsector application made to showcase x86 computer 13h video mode (320x200, 256 colors). It utilizes bios keyboard and video interrupts.
 
+[screenshot](pics/pic1.jpg)
+[screenshot](pics/pic2.jpg)
 
 # Compilation
 
-nasm -f bin snekpaint_typewritter.bin -o binary.bin
+`nasm -f bin snekpaint_typewritter.bin -o binary.bin`
 
 # Running
 
-qemu-system-x86_64 binary.bin
+`qemu-system-x86_64 binary.bin`
 
 # Controls
-Some special symbols are typable with ctrl or alt hold. Enter does just CR, to LF use Ctrl+j.
+Special symbols are typable with ctrl or alt hold. Enter does just CR, to LF use Ctrl+j.
 
-Move pixel with arrows, change color with Page Up and Page Down.
+Move pixel with arrows, change it color with Page Up and Page Down.
