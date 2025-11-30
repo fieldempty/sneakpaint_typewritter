@@ -1,7 +1,7 @@
 Bootsector application made to showcase x86 computer 13h video mode (320x200, 256 colors). It utilizes bios keyboard and video interrupts.
 
-[screenshot](pics/pic1.jpg)
-[screenshot](pics/pic2.jpg)
+![screenshot](pics/pic1.jpg)
+![screenshot](pics/pic2.jpg)
 
 # Compilation
 
